@@ -195,7 +195,7 @@ CPlateRecognize pr;
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
+    self.view.backgroundColor = [UIColor whiteColor];
     ZEBLog(@"--------%@",[[NSBundle mainBundle] infoDictionary]);
     
     Camera_State=false;

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9335E34D1E1672EF005A7205 /* test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9335E34C1E1672EF005A7205 /* test.jpg */; };
 		938FC9981DE8069400F52702 /* EasyPRViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 938FC9971DE8069400F52702 /* EasyPRViewController.mm */; };
 		938FCCB81DE80E6A00F52702 /* VideoProcess.m in Sources */ = {isa = PBXBuildFile; fileRef = 938FCCB71DE80E6A00F52702 /* VideoProcess.m */; };
 		938FCCBC1DE80EA700F52702 /* etc in Resources */ = {isa = PBXBuildFile; fileRef = 938FCCBB1DE80EA700F52702 /* etc */; };
@@ -70,6 +71,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9335E34C1E1672EF005A7205 /* test.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test.jpg; sourceTree = "<group>"; };
 		938FC9961DE8069400F52702 /* EasyPRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EasyPRViewController.h; path = ../EasyPRViewController.h; sourceTree = "<group>"; };
 		938FC9971DE8069400F52702 /* EasyPRViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = EasyPRViewController.mm; path = ../EasyPRViewController.mm; sourceTree = "<group>"; };
 		938FCCB61DE80E6A00F52702 /* VideoProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoProcess.h; sourceTree = "<group>"; };
@@ -322,6 +324,7 @@
 		938FCD0A1DE80FAA00F52702 /* EasyPR iOS */ = {
 			isa = PBXGroup;
 			children = (
+				9335E34C1E1672EF005A7205 /* test.jpg */,
 				938FCD171DE80FAA00F52702 /* EasyPR_iOS.xcdatamodeld */,
 				938FCD191DE80FAA00F52702 /* GlobalData.cpp */,
 				938FCD1A1DE80FAA00F52702 /* GlobalData.hpp */,
@@ -604,6 +607,7 @@
 				938FCCBC1DE80EA700F52702 /* etc in Resources */,
 				938FCD081DE80EF300F52702 /* SVProgressHUD.bundle in Resources */,
 				9394DF081DE84EF100BEA459 /* model in Resources */,
+				9335E34D1E1672EF005A7205 /* test.jpg in Resources */,
 				938FCCD31DE80ECC00F52702 /* AFPL-license.txt in Resources */,
 				93B757EB1DE6BEBF00760BBB /* Assets.xcassets in Resources */,
 				938FCD351DE80FAA00F52702 /* 华文细黑.ttf in Resources */,
@@ -820,6 +824,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/OCR/EasyPR",
 				);
+				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/OCRPrefixHeader.pch";
 				HEADER_SEARCH_PATHS = (
 					"$(SRCROOT)/OCR/EasyPR/include/",
