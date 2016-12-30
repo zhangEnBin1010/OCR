@@ -1,0 +1,29 @@
+//
+//  OCRPrefixHeader.pch
+//  OCR
+//
+//  Created by zeb－Apple on 16/11/24.
+//  Copyright © 2016年 zeb－Apple. All rights reserved.
+//
+
+#ifndef OCRPrefixHeader_pch
+#define OCRPrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#endif
+
+
+#define ZEBLog(format, ...) printf("\n[%s] %s [第%d行] %s\n", __TIME__, __FUNCTION__, __LINE__, [[NSString stringWithFormat:format, ## __VA_ARGS__] UTF8String])
+
+#endif /* OCRPrefixHeader_pch */
